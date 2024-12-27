@@ -1,4 +1,4 @@
-/* Genel Ayarlar */
+
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     margin: 0;
@@ -8,7 +8,7 @@ body {
     overflow: hidden;
 }
 
-/* Müzik Açılış Ekranı */
+
 #music-overlay {
     position: fixed;
     top: 0;
@@ -43,7 +43,7 @@ body {
 #play-music {
     padding: 15px 30px;
     font-size: 1.5em;
-    background-color: #FF6F61; /* Pembe buton rengi */
+    background-color: #FF6F61; 
     color: white;
     border: none;
     border-radius: 10px;
@@ -75,12 +75,11 @@ body {
     }
 }
 
-/* Ana İçerik (Gizli) */
 .hidden {
     display: none;
 }
 
-/* Header */
+
 header {
     background: linear-gradient(90deg, #FF6F61, #DE6262);
     color: white;
@@ -88,7 +87,7 @@ header {
     font-size: 1.5em;
 }
 
-/* Panda ve GIF'ler */
+
 .panda-container {
     position: relative;
     margin: 50px auto;
@@ -102,13 +101,13 @@ header {
 }
 
 .dancing-panda {
-    width: 300px; /* Panda görselini iki kat büyüttük */
+    width: 300px; 
     animation: pandaDance 1.5s infinite alternate;
 }
 
 .dancing-gif {
-    width: 300px; /* GIF'leri iki kat büyüttük */
-    margin: 0 15px; /* GIF'ler arasına biraz daha boşluk ekledik */
+    width: 300px;
+    margin: 0 15px; 
     animation: gifDance 1.5s infinite alternate;
 }
 
@@ -134,7 +133,7 @@ header {
     }
 }
 
-/* Footer */
+
 footer {
     background: linear-gradient(90deg, #DE6262, #FF6F61);
     color: white;
@@ -145,20 +144,20 @@ footer {
     width: 100%;
 }
 
-/* Responsive Tasarım */
+
 @media (max-width: 768px) {
-    /* Pandaların boyutunu küçültüyoruz ama yan yana durmalarını sağlıyoruz */
+
     .dancing-panda, .dancing-gif {
-        width: 200px; /* Daha küçük ekranlar için GIF'lerin boyutunu küçültüyoruz */
+        width: 200px; 
     }
 
-    /* GIF'leri yan yana tutmaya devam ediyoruz */
+    
     .gif-container {
-        flex-direction: row; /* Yan yana dizilmelerini sağlıyoruz */
-        justify-content: center; /* Ortada hizalama */
+        flex-direction: row; 
+        justify-content: center; 
     }
 
-    /* Yüksek çözünürlüklü telefonlarda metin büyüklüğünü biraz küçültüyoruz */
+    
     header h1 {
         font-size: 1.3em;
     }
